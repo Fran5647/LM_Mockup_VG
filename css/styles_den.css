@@ -48,13 +48,52 @@ header {
     cursor: pointer;
     font-size: 0.9em;
 }
-  
+
+nav{
+    margin-left: 42%;
+}
+
 .navbar .auth-buttons .btn:hover {
     background-color: #4b00b0;
+}
+
+.banner {
+    background-color: #b57edc;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+  
+.banner h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+  
+.banner h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
 }
 
 h3{
     color: #6200ea
 }
 
-
+.footer {
+    background-color:#7b4397;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    }
+    
+    .footer .contact-info {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    }
+    
+    .footer-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    }
+    
