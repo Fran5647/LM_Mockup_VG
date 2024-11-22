@@ -30,11 +30,12 @@
     <img src="/img/header_vg.jpg" alt="">
   </section>
   <br>
+  <nav>
   <div>
     <h3>Formulario de denuncia</h3>
   <br>
-    <form action="denuncia" method="post">
-        <p>
+    <form action="https://www.google.com" method="get">
+        <div>
             <label>Eres:</label><br>
             <label>
                 <input type="radio" name="eres" value="Victima">
@@ -48,8 +49,63 @@
                 <input type="radio" name="eres" value="Testigo">
                 Testigo
             </label>
-        </p>
+          </div>
+        <div>
+            <label>¿Dónde ocurrió/ocurre?</label><br>
+            <input type="text" name="¿Dónde ocurrió/ocurre?">
+        </div>
+          <div>
+          <label class="form" for="Tipo de agresión">Tipo de agresión:</label><br>
+            <input list="Tipos_de_agresiones" name="Agresiones" id="Agresiones" />
+            <datalist id="Tipos_de_agresiones">
+              <option value="Física">
+              <option value="Verbal">
+              <option value="Control de vestimenta">
+              <option value="Control digital">
+              <option value="Otro: ">
+            </datalist>
+          </div>
+        <div>
+          <label>Frecuencia de la agresión:</label><br>
+            <input type="text" name="Frecuencia de la agresión">
+        </div>
+        <div>
+          <label>¿Cuándo empezó?:</label><br>
+            <input type="text" name="¿Cuándo empezó?">
+        </div>
+        <div>
+          <label>Estado de la víctima antes de la/las agresión/es:</label><br>
+            <input type="text" name="Estado de la víctima antes de la/las agresión/es">
+        </div>
+        <div>
+          <label>Estado actual de la víctima:</label><br>
+            <input type="text" name="Estado actual de la víctima">
+        </div>
+        <div>
+        <label for="Relación agresor-víctima">Relación agresor-víctima:</label><br>
+            <input list="Relación agresor-víctima" name="Agresor-víctima" id="Agresor-víctima" />
+            <datalist id="Relación agresor-víctima">
+              <option value="Pareja">
+              <option value="Familiares">
+              <option value="Amigos">
+              <option value="Conocidos">
+              <option value="Otro: ">
+            </datalist><br>
+        </div>
+        <div>
+        <button name="submit_button" value="primary" type="submit">Enviar</button>
+        </div>
     </form>
+  </nav>
   </div>
+  <footer class="footer">
+    <div class="contact-info">
+      <span>016</span>
+      <span>Contáctanos</span>
+    </div>
+    <div class="footer-logo">
+      <a href="#">Símbolo Violeta</a>
+    </div>
+  </footer>
 </body>
 </html>
