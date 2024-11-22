@@ -17,7 +17,15 @@ header {
 }
 .bt_equipo_violeta{
     background-color: red;
+    padding: 10px 20px;
+
 }
+
+.bt_equipo_violeta :hover{
+    background-color: rgb(104, 2, 2);
+    padding: 10px 20px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
