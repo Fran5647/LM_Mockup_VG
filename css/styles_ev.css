@@ -2,43 +2,54 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}  
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #b57edc;
     color: #333;
 }
-  
+
 header {
     background-color:#7b4397;
     color: #fff;
     padding: 10px 20px;
 }
+.bt_equipo_violeta{
+    background-color: red;
+    padding: 10px 20px;
+
+}
+
+.bt_equipo_violeta :hover{
+    background-color: rgb(104, 2, 2);
+    padding: 10px 20px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-  
+
 .navbar .logo a {
-    font-size: 1.5em;
-    color: #fff;
+    font-size: 15em;
+    color: #ff0000;
     text-decoration: none;
 }
-  
+
 .navbar .menu {
     list-style: none;
     display: flex;
     gap: 15px;
 }
-  
+
 .navbar .menu li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-size: 1em;
 }
-  
+
 .navbar .auth-buttons .btn {
     background-color: #6200ea;
     color: #fff;
@@ -48,28 +59,26 @@ header {
     cursor: pointer;
     font-size: 0.9em;
 }
-  
+
 .navbar .auth-buttons .btn:hover {
     background-color: #4b00b0;
 }
 
 .footer {
-    background-color:#7b4397;
-    color: #fff;
-    text-align: center;
-    padding: 20px 10px;
-    }
-      
-    .footer .contact-info {
-    margin-bottom: 10px;
-    font-size: 0.9em;
-    }
-      
-    .footer-logo a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2em;
-    }
-    
-  
+background-color:#7b4397;
+color: #fff;
+text-align: center;
+padding: 20px 10px;
+}
+
+.footer .contact-info {
+margin-bottom: 10px;
+font-size: 0.9em;
+}
+
+.footer-logo a {
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+font-size: 1.2em;
+}

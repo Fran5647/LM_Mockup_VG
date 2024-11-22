@@ -76,7 +76,7 @@ header {
 }
   
 .slider .slide img {
-    width: 80%;
+    width: 25%;
     border-radius: 10px;
 }
   
@@ -103,10 +103,10 @@ header {
     margin-bottom: 15px;
     gap: 15px;
 }
-  
+
 .news-item img {
-    width: 80px;
-    height: 80px;
+    width: 220px;
+    height: 220px;
     border-radius: 8px;
 }
   
