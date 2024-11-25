@@ -19,6 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0%;
 }
   
 .navbar .logo a {
@@ -26,11 +27,22 @@ header {
     color: #fff;
     text-decoration: none;
 }
-  
+.navbar .menu button{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 20%;
+    cursor: pointer;
+    font-size: 0.9em;
+    border: none;
+}
+.navbar .menu .logo :hover{
+    background-color: darkred;
+}
 .navbar .menu {
     list-style: none;
     display: flex;
     gap: 15px;
+    align-items: center;
 }
   
 .navbar .menu li a {
@@ -38,7 +50,9 @@ header {
     text-decoration: none;
     font-size: 1em;
 }
-  
+.navbar .menu li a :hover{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 .navbar .auth-buttons .btn {
     background-color: #6200ea;
     color: #fff;
@@ -46,9 +60,13 @@ header {
     padding: 8px 15px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 0.9em;
+    font-size: 1.7em;
 }
-
+  
+.navbar .auth-buttons .btn:hover {
+    background-color: #4b00b0;
+}
+  
 .banner_pv{
     background-color: #b57edc;
     color: #fff;
