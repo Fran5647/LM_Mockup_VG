@@ -67,3 +67,88 @@ header {
     background-color: #4b00b0;
 }
   
+
+.social-icons img {
+    width: 40px; /* Cambia el tamaño aquí si lo deseas */
+    height: 40px;
+    border-radius: 50%; /* Si deseas bordes redondos */
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Efecto hover opcional */
+}
+
+/* Estilo general de la sección del Login */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 150px); /* Calcula para header y footer */
+    background-color: #dab3e5; /* Color de fondo */
+}
+
+.login-container {
+    text-align: center;
+    background-color: #f3dbf7; /* Color del contenedor */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px; /* Tamaño fijo para el contenedor */
+}
+
+.login-container h2 {
+    color: #3c1a56; /* Color del título */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Estilo de los inputs del formulario */
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #82419a; /* Color del borde */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ab71c5; /* Fondo de los campos */
+    color: #fff; /* Texto blanco */
+}
+
+.login-form input::placeholder {
+    color: #e5c7f3; /* Color del placeholder */
+}
+
+/* Estilo del enlace para recuperar contraseña */
+.forgot-password {
+    display: block;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #82419a; /* Color del texto */
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Estilo del botón de Login */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #82419a; /* Color del botón */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #6e3a82; /* Color al pasar el ratón */
+}

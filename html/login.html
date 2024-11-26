@@ -4,64 +4,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página Principal - Día Internacional Contra la Violencia de Género</title>
-  <link rel="stylesheet" href="/css/styles_ev.css">
+  <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
     <header class="header">
-        <nav class="navbar">
-            <a href="/html/index.html"><img src="/img/logo.png" alt="logo"></a>
-          <ul class="menu">
-            <li><div class="logo">
-                <button><a href="/html/equipo_violeta.html"><h2>Equipo Violeta</h2></a></button>
-              </div></li>
-            <li><a href="/html/denuncias.html"><h2>Denuncias</h2></a></li>
-            <li><a href="#"><h2>Foros</h2></a></li>
-            <li><a href="#"><h2>Noticias</h2></a></li>
-            <li><a href="#"><h2>Casos</h2></a></li>
-            <li><a href="/html/punto_violeta.html"><h2>Punto Violeta</h2></a></li>
-          </ul>
-          <div class="auth-buttons">
-            <a href="/html/login.html"><button class="btn sign-in">Sign In</button></a>
-            <a href="/html/registro.html"><button class="btn register">Register</button></a>
-          </div>
-        </nav>
-      </header>
-    <section>
-        <div class="alert-row">
-            <div class="alert-phone">
-                <img src="/img/phone_alert.png" alt="Alerta enviada">
-            </div>
-            <div class="alert-message">
-                TU ALERTA HA SIDO ENVIADA - ESTAMOS EN CAMINO...
-            </div>
-            <div class="alert-image">
-                <img src="/img/sirena.png" alt="Alerta enviada">
-            </div>
+      <nav class="navbar">
+          <a href="/html/index.html"><img src="/img/logo.png" alt="logo"></a>
+        <ul class="menu">
+          <li><div class="logo">
+              <button><a href="/html/equipo_violeta.html"><h2>Equipo Violeta</h2></a></button>
+            </div></li>
+          <li><a href="/html/denuncias.html"><h2>Denuncias</h2></a></li>
+          <li><a href="#"><h2>Foros</h2></a></li>
+          <li><a href="#"><h2>Noticias</h2></a></li>
+          <li><a href="#"><h2>Casos</h2></a></li>
+          <li><a href="/html/punto_violeta.html"><h2>Punto Violeta</h2></a></li>
+        </ul>
+        <div class="auth-buttons">
+          <a href="/html/login.html"><button class="btn sign-in">Sign In</button></a>
+          <a href="/html/registro.html"><button class="btn register">Register</button></a>
         </div>
+      </nav>
+    </header>
+    
+    <section class="login-section">
+      <div class="login-container">
+        <h2>Login</h2>
+        <form action="#" method="POST" class="login-form">
+          <input type="text" name="username" placeholder="Usuario, email o número de teléfono" required>
+          <input type="password" name="password" placeholder="Contraseña" required>
+          <a href="#" class="forgot-password">¿Has olvidado tu contraseña?</a>
+          <button type="submit" class="login-btn">Login</button>
+        </form>
+        <div class="social-login">
+          <p>También puedes iniciar sesión con</p>
+          <div class="social-icons">
+            <a href="#"><img src="/img/google-icon.png" alt="Google"></a>
+            <a href="#"><img src="/img/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="/img/apple-icon.png" alt="Apple"></a>
+          </div>
+          
+        </div>
+      </div>
     </section>
     
-    <div class="map-container">
-        <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.4424232318906!2d-5.8750249229156575!3d37.54463897204415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd125ce603bed70f%3A0xcd0e9d8b39d715f0!2sInstituto%20de%20Educaci%C3%B3n%20Secundaria%20Jacarand%C3%A1!5e0!3m2!1ses!2ses!4v1732277457674!5m2!1ses!2ses" 
-            width="600" 
-            height="450" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-    </div>
-    <div class="alert-image">
-        <img src="/img/pie_alerta_equipo.png" alt="Alerta enviada">
-    </div>
     <footer class="footer">
-        <div class="contact-info">
-        <span>016</span>
-        <span>Contáctanos</span>
-        </div>
-        <div class="footer-logo">
-        <a href="#">Símbolo Violeta</a>
-        </div>
+      <div class="contact-info">
+        <span><h1>Contáctanos</h1></span>
+      </div>
+      <div class="footer-logo">
+        <img src="/img/logo-016.png" alt="">
+      </div>
     </footer>
 </body>
 </html>
